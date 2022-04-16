@@ -19,3 +19,11 @@
 # qq交流群：753472503
 
 ![pic1](./001.jpg)
+
+### 如何下载？教程如下：
+#### 1.点击tags、2.选择一个版本进入、3.下载对应exe即可。
+![pic1](./imgs/点击tags.png)
+
+![pic1](./imgs/enter.png)
+
+![pic1](./imgs/download.png)
