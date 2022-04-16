@@ -24,6 +24,6 @@
 #### 1.点击tags、2.选择一个版本进入、3.下载对应exe即可。
 ![pic1](./imgs/点击tags.png)
 
-![pic1](./imgs/enter.png)
+![pic1](./imgs/Enter.png)
 
 ![pic1](./imgs/download.png)
