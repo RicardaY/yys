@@ -11,4 +11,4 @@
 ###### ②选择一个发行版本进入下载相应exe
 ![enter](imgs/Enter.png)
 ###### ③选择对应屏幕缩放(100%或125%)的脚本下载即可(不同缩放的脚本只是显示效果不同，功能无任何区别)
-![enter](imgs/download.png)
+![download](imgs/download.png)
