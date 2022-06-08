@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\game1">
+      <UniqueIdentifier>{e124176c-da53-4987-9514-2210062748e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\game2">
+      <UniqueIdentifier>{e59a87a1-e95f-4b60-828d-67abbf87e2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\public">
+      <UniqueIdentifier>{4c7a0f09-08ea-472b-96cc-cb1e6c3ae958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\main_init">
+      <UniqueIdentifier>{22f31364-ace2-42b3-8517-e1abcc99e634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\game1">
+      <UniqueIdentifier>{227a6b03-2238-4fbf-9bd9-52d46807d24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\game2">
+      <UniqueIdentifier>{cfc04f0a-57ab-419a-bf1c-d22543c0bda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\public">
+      <UniqueIdentifier>{41e9fc24-bd71-42bb-8e01-b95b489deba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main_init">
+      <UniqueIdentifier>{8d40b507-86ce-4198-a4d7-a580c919139d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGame_inDependentFunc1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_NewEvent1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_RiLunZhiYun1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_TanSuo1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_RunLog1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_Rest1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_JueXing1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_GeRenTuPo1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_GeRenTuPo2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_inDependentFunc2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_JueXing2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_NewEvent2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_Rest2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_RiLunZhiYun2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_RunLog2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_TanSuo2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YaoQiFengYin1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YeYuanHuo1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YongShengZhiHai1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YuHun1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YuLing1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YaoQiFengYin2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YuLing2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YuHun2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YongShengZhiHai2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_YeYuanHuo2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragStatic.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabsheet.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="YYS_AssistDlg.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="YYS_Assist.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件\main_init</Filter>
+    </ClInclude>
+    <ClInclude Include="yys_function.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="obj.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginExplore.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginYuhun.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginJueXing.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginRiLunZhiYun.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginYongShengZhiHai.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginYaoQiFengYin.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginYeYuanHuo.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginTuPo.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginRest.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginYuLing.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="InDependentFunction.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_ChangeEquip1.h">
+      <Filter>头文件\game1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_ChangeEquip2.h">
+      <Filter>头文件\game2</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginChangeYuHun.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGame_GeRenTuPo1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_inDependentFunc1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_JueXing1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_NewEvent1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_Rest1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_RiLunZhiYun1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_RunLog1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_TanSuo1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YaoQiFengYin1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YeYuanHuo1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YongShengZhiHai1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YuHun1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_GeRenTuPo2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_inDependentFunc2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_JueXing2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_NewEvent2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_Rest2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_RiLunZhiYun2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_RunLog2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_TanSuo2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YaoQiFengYin2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YeYuanHuo2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YongShengZhiHai2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YuHun2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YuLing1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_YuLing2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragStatic.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabsheet.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="yys_function.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="YYS_Assist.cpp">
+      <Filter>源文件\main_init</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件\main_init</Filter>
+    </ClCompile>
+    <ClCompile Include="YYS_AssistDlg.cpp">
+      <Filter>源文件\main_init</Filter>
+    </ClCompile>
+    <ClCompile Include="obj.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginExplore.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginYuhun.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginJueXing.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginRiLunZhiYun.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginYongShengZhiHai.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginYaoQiFengYin.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginYeYuanHuo.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginTuPo.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginRest.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginYuLing.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticVariable.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="InDependentFunction.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_ChangeEquip1.cpp">
+      <Filter>源文件\game1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_ChangeEquip2.cpp">
+      <Filter>源文件\game2</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginChangeYuHun.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YYSAssist.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\YYSAssist.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\normal.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon\YYS_ZS.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon\circle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon\18-十字.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon\单线圆形.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon\闪烁.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

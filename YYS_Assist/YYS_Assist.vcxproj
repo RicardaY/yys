@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9F8DE4B6-897B-44B0-9ED9-A6AC26ADD7B9}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>YYSAssist</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BeginChangeYuHun.h" />
+    <ClInclude Include="BeginExplore.h" />
+    <ClInclude Include="BeginJueXing.h" />
+    <ClInclude Include="BeginRest.h" />
+    <ClInclude Include="BeginRiLunZhiYun.h" />
+    <ClInclude Include="BeginTuPo.h" />
+    <ClInclude Include="BeginYaoQiFengYin.h" />
+    <ClInclude Include="BeginYeYuanHuo.h" />
+    <ClInclude Include="BeginYongShengZhiHai.h" />
+    <ClInclude Include="BeginYuhun.h" />
+    <ClInclude Include="BeginYuLing.h" />
+    <ClInclude Include="CDragStatic.h" />
+    <ClInclude Include="CGame1.h" />
+    <ClInclude Include="CGame2.h" />
+    <ClInclude Include="CGame_ChangeEquip1.h" />
+    <ClInclude Include="CGame_ChangeEquip2.h" />
+    <ClInclude Include="CGame_GeRenTuPo1.h" />
+    <ClInclude Include="CGame_GeRenTuPo2.h" />
+    <ClInclude Include="CGame_inDependentFunc1.h" />
+    <ClInclude Include="CGame_inDependentFunc2.h" />
+    <ClInclude Include="CGame_JueXing1.h" />
+    <ClInclude Include="CGame_JueXing2.h" />
+    <ClInclude Include="CGame_NewEvent1.h" />
+    <ClInclude Include="CGame_NewEvent2.h" />
+    <ClInclude Include="CGame_Rest1.h" />
+    <ClInclude Include="CGame_Rest2.h" />
+    <ClInclude Include="CGame_RiLunZhiYun1.h" />
+    <ClInclude Include="CGame_RiLunZhiYun2.h" />
+    <ClInclude Include="CGame_RunLog1.h" />
+    <ClInclude Include="CGame_RunLog2.h" />
+    <ClInclude Include="CGame_TanSuo1.h" />
+    <ClInclude Include="CGame_TanSuo2.h" />
+    <ClInclude Include="CGame_YaoQiFengYin1.h" />
+    <ClInclude Include="CGame_YaoQiFengYin2.h" />
+    <ClInclude Include="CGame_YeYuanHuo1.h" />
+    <ClInclude Include="CGame_YeYuanHuo2.h" />
+    <ClInclude Include="CGame_YongShengZhiHai1.h" />
+    <ClInclude Include="CGame_YongShengZhiHai2.h" />
+    <ClInclude Include="CGame_YuHun1.h" />
+    <ClInclude Include="CGame_YuHun2.h" />
+    <ClInclude Include="CGame_YuLing1.h" />
+    <ClInclude Include="CGame_YuLing2.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="InDependentFunction.h" />
+    <ClInclude Include="obj.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Tabsheet.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="YYS_Assist.h" />
+    <ClInclude Include="YYS_AssistDlg.h" />
+    <ClInclude Include="yys_function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BeginChangeYuHun.cpp" />
+    <ClCompile Include="BeginExplore.cpp" />
+    <ClCompile Include="BeginJueXing.cpp" />
+    <ClCompile Include="BeginRest.cpp" />
+    <ClCompile Include="BeginRiLunZhiYun.cpp" />
+    <ClCompile Include="BeginTuPo.cpp" />
+    <ClCompile Include="BeginYaoQiFengYin.cpp" />
+    <ClCompile Include="BeginYeYuanHuo.cpp" />
+    <ClCompile Include="BeginYongShengZhiHai.cpp" />
+    <ClCompile Include="BeginYuhun.cpp" />
+    <ClCompile Include="BeginYuLing.cpp" />
+    <ClCompile Include="CDragStatic.cpp" />
+    <ClCompile Include="CGame1.cpp" />
+    <ClCompile Include="CGame2.cpp" />
+    <ClCompile Include="CGame_ChangeEquip1.cpp" />
+    <ClCompile Include="CGame_ChangeEquip2.cpp" />
+    <ClCompile Include="CGame_GeRenTuPo1.cpp" />
+    <ClCompile Include="CGame_GeRenTuPo2.cpp" />
+    <ClCompile Include="CGame_inDependentFunc1.cpp" />
+    <ClCompile Include="CGame_inDependentFunc2.cpp" />
+    <ClCompile Include="CGame_JueXing1.cpp" />
+    <ClCompile Include="CGame_JueXing2.cpp" />
+    <ClCompile Include="CGame_NewEvent1.cpp" />
+    <ClCompile Include="CGame_NewEvent2.cpp" />
+    <ClCompile Include="CGame_Rest1.cpp" />
+    <ClCompile Include="CGame_Rest2.cpp" />
+    <ClCompile Include="CGame_RiLunZhiYun1.cpp" />
+    <ClCompile Include="CGame_RiLunZhiYun2.cpp" />
+    <ClCompile Include="CGame_RunLog1.cpp" />
+    <ClCompile Include="CGame_RunLog2.cpp" />
+    <ClCompile Include="CGame_TanSuo1.cpp" />
+    <ClCompile Include="CGame_TanSuo2.cpp" />
+    <ClCompile Include="CGame_YaoQiFengYin1.cpp" />
+    <ClCompile Include="CGame_YaoQiFengYin2.cpp" />
+    <ClCompile Include="CGame_YeYuanHuo1.cpp" />
+    <ClCompile Include="CGame_YeYuanHuo2.cpp" />
+    <ClCompile Include="CGame_YongShengZhiHai1.cpp" />
+    <ClCompile Include="CGame_YongShengZhiHai2.cpp" />
+    <ClCompile Include="CGame_YuHun1.cpp" />
+    <ClCompile Include="CGame_YuHun2.cpp" />
+    <ClCompile Include="CGame_YuLing1.cpp" />
+    <ClCompile Include="CGame_YuLing2.cpp" />
+    <ClCompile Include="InDependentFunction.cpp" />
+    <ClCompile Include="obj.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StaticVariable.cpp" />
+    <ClCompile Include="Tabsheet.cpp" />
+    <ClCompile Include="YYS_Assist.cpp" />
+    <ClCompile Include="YYS_AssistDlg.cpp" />
+    <ClCompile Include="yys_function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YYSAssist.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\YYSAssist.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\18-十字.ico" />
+    <Image Include="icon\circle.ico" />
+    <Image Include="icon\normal.ico" />
+    <Image Include="icon\YYS_ZS.ico" />
+    <Image Include="icon\单线圆形.ico" />
+    <Image Include="icon\闪烁.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
