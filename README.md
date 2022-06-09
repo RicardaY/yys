@@ -41,7 +41,7 @@ unlock(long hd, dmsoft *dm, int gameclass, int index) //解锁阵容
 IsEnterTeam(long hd, dmsoft *dm, int count, int gameclass, int index) //检测好友是否进入队伍，若进入：点击挑战；未进入：等待  count：记录第几局了
 InviteEnterEvent(long hd, dmsoft *dm, int gameclass, int index) //队长进入副本后的操作事件：点准备、胜利结算
 ReceiveEnterEvent(long hd, dmsoft *dm,int count, CString gameMode, int gameclass, int index)//队员进入副本后的操作事件：接受普通/默认邀请，点准备、胜利结算
-		count：记录第几局了 gameMode：游戏模式：御魂、御灵、永生之海等
+		count：记录第几局了 gameMode：游戏模式：御魂、御灵、日轮之陨、永生之海等
 DefalutInvite(long hd, dmsoft *dm, int gameclass, int index) //第一局结束后点击的默认邀请事件
 auto_open_jc(long hd, CString jc_category, CString jc_index, CPoint start_xy, CPoint end_xy, dmsoft *dm, int gameclass, int index) //自动开加成
 		hd：窗口句柄 jc_category：加成类别：御魂、觉醒、探索  其中探索包含：金币加成（暂未实现代码，留了位置）、50%经验加成、100经验加成 50/100经验混合加成 start_xy,end_xy：寻找的加成位置范围
