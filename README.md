@@ -1,3 +1,4 @@
+#一，使用作者打包好的
 # YYS_ASSIST
 见使用文档：[点我查看](https://ricarday.github.io/)
 # 二、自己编译运行
