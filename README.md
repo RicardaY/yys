@@ -1,4 +1,5 @@
 # 一、使用作者打包好的exe
+![示例1](imgs/index.png)
 # YYS_ASSIST
 #### 见使用文档：[点我查看](http://doc.sakurabot.com/)
 # 二、自己编译运行
