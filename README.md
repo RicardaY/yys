@@ -1,5 +1,15 @@
 # 一、使用作者打包好的exe
 ![示例1](imgs/index.png)
+<iframe 
+src="http://45.116.76.246:8888/down/DIIT6TOrFEOh.mp4" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
 # YYS_ASSIST
 #### 见使用文档：[点我查看](http://doc.sakurabot.com/)
 # 二、自己编译运行
