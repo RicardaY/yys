@@ -1,3 +1,5 @@
+[![npm-version](https://img.shields.io/badge/YYS%20ASSIST-1.7.5-green)](https://github.com/RicardaY/yys/)
+[![dm](https://shields.io/npm/dm/kivibot-plugin-keyword?style=flat-square)](https://github.com/RicardaY/yys/)
 # 一、使用作者打包好的exe
 ![示例1](imgs/index.png)
 
