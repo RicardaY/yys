@@ -1,5 +1,6 @@
 [![npm-version](https://img.shields.io/badge/YYS%20ASSIST-1.7.5-green)](https://github.com/RicardaY/yys/)
 [![dm](https://shields.io/npm/dm/kivibot-plugin-keyword?style=flat-square)](https://github.com/RicardaY/yys/)
+
 一个神奇的痒痒鼠图色识别助手
 
 简单、轻便、解放双手
